@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.l1,
+.i1,
+.l2,
+.i2 {
+  display: block;
+}
+.txtWrap {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.i1,
+.i2 {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 5px 0px;
+}
+
+.weightWrap,
+.heightWrap {
+  margin-bottom: 20px;
+}
+
+.wrap {
+  padding: 50px 180px;
+}
+
+main {
+  background-color: aliceblue;
+  margin: 200px 500px;
+  border-radius: 10px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.sub {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+
+.inputArea {
+  padding: 0px 0px 50px 0px;
+}
+
+#btn {
+  margin-top: 10px;
+  width: 30%;
+  padding: 10px 0px;
+  background-color: #0b2447;
+  color: aliceblue;
+  border: none;
+  display: block;
+  border-radius: 4px;
+}
+
+#height_error,
+#weight_error {
+  font-size: 14px;
+}
